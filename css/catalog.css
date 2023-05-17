@@ -1,0 +1,232 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.FourLink {
+    color: #400000 !important;
+    text-decoration: none
+}
+
+.Header {
+    background: #1B1919;
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Logo {
+    width: 10%;
+    height: 60%;
+    margin-top: 1%;
+}
+
+.Searcher {
+    border-radius: 20px;
+    margin-top: 0.5%;
+    margin-bottom: 1%;
+    background: #FFFFFF;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.search {
+    margin-top: 1.5%;
+    width: 90%;
+    height: 50%;
+    all: unset;
+}
+
+.searchButton {
+    margin-top: 1.5%;
+    padding-left: 50%;
+}
+
+.Medium {
+    height: 190px;
+}
+
+.Menu {
+    margin-top: 3%;
+    text-transform: uppercase;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+.Center{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Jphotos{ 
+    display: flex;
+    flex-direction: column;
+    margin-top: -5%;
+}
+.Structure{
+    flex: 1 1 auto;
+    margin-top: 10%;
+}
+.Navigator{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+.GreenSet{
+    color: #08B61A !important;
+    text-decoration: none;
+}
+.Contents {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.Object {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    align-items: center;
+    font-size: 20px;
+}
+.GrayShrift{
+    color: #807C7C;
+}
+
+.btn-oval {
+    display: inline-block;
+    width: 240px;
+    height: 70px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    background: linear-gradient(#E30B13);
+    background-color: #E30B13;
+    border-radius: 35px;
+    border: 1px solid #E30B13;
+    font: bold 30px/70px Arial;
+    position: relative;
+    text-shadow: 0 1px #FFFFFF;
+    outline: none;
+    color: #FFFFFF !important;
+    text-decoration: none;
+}
+.btn-oval:hover {
+    background: linear-gradient(#c9040a, #E30B13);
+    box-shadow: inset 0 1px 0 #2f0103, inset 0 2px 0 #E30B13,
+        inset 0 3px 0 #E30B13, inset 0 5px 0 #E30B13, inset 1px 0 3px #E30B13,
+        inset -1px 0 3px #E30B13, inset 0 -2px 2px #E30B13,
+        0 0 3px rgba(0, 0, 0, 0.24);
+}
+
+.btn-oval:active {
+    background: linear-gradient(#7b0408);
+    box-shadow: inset 0 3px 7px #E30B13;
+    padding: 1px 0 0 1px;
+}
+
+.btn-oval {
+    margin: auto;
+}
+
+
+.Footer {
+    background-color: #242323;
+    margin-top: 20%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-size: 20px;
+}
+
+.FooterShr {
+    padding-top: 10%;
+    color: #9D9D9D !important;
+    text-decoration: none
+}
+
+.headlines {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ContentsFooter {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Con1 {
+    padding-left: 3.6%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Con2 {
+    padding-left: 0.2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Con3 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.1%;
+}
+
+.Line {
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.LastElements {
+    padding-top: 5%;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.TempoKg {
+    color: #9D9D9D;
+    padding-left: 20%;
+}
+
+.Emblems {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20%;
+    padding-left: 50%;
+
+}
+
+#Emblem1 {
+    padding-right: 10%;
+}
+
+#Emblem2 {
+    padding-right: 10%;
+}
+
+#Emblem3 {
+    padding-right: 10%;
+}
+
+@media only screen and (max-width: 768px){
+    body{
+        width: 768px;
+        background-color: #807C7C;
+    }
+    .Header {
+        max-width: 768px;
+        background: #1B1919;
+        padding-top: 1%;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    
+}
